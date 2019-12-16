@@ -9,13 +9,29 @@ wslはDockerとほぼ同じらしい。ちなみにwindow10 home はHyper-Vが�
 ## 参考URL
 >[WSL + Ubuntu で Docker が動くっ！動くぞコイツッ！](https://qiita.com/koinori/items/78a946fc74452af9afba)
 
->[WSLでdockerのインストールからdocker-composeまで動かす](https://qiita.com/tettsu__/items/85c96850d187e4386c24)
-
 >[Windows Subsystem for Linux(WSL)で Docker を利用する](https://simplestar-tech.hatenablog.com/entry/2019/10/14/101551)
 
 >[Windows Subsystem for Linux（Hyper-Vなし）でDockerを動かす](https://www.nuits.jp/entry/docker-on-wsl)
 
 春まで待つことが無難？
+
+更新用コマンド
+
+```Bash
+$sudo apt update
+$sudo apt full-upgrade -y
+$sudo apt autoremove
+```
+
+導入(18.04.3では動かない模様)
+```Bash
+$sudo apt install -y docker.io
+/*再起動して
+$sudo cgroupfs-mount
+$sudo service docker start
+```
+
+Cannot connect to the Docker daemonと表示されるのでそこをなんとかしなかればならない（Client自体は存在する）
 
 ## fish plugin
 WSLにfishいれたのでplaginも入れよう。
