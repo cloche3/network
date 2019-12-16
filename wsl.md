@@ -8,8 +8,11 @@ wslはDockerとほぼ同じらしい。ちなみにwindow10 home はHyper-Vが�
 ここで気になったことがwsl上でDocker動かせないかと言うことである。結論として「一応は」動くらしい。
 ## 参考URL
 ><https://qiita.com/koinori/items/78a946fc74452af9afba>
+
 ><https://qiita.com/tettsu__/items/85c96850d187e4386c24>
+
 ><https://simplestar-tech.hatenablog.com/entry/2019/10/14/101551>
+
 ><https://www.nuits.jp/entry/docker-on-wsl>
 
 ## fish plugin
