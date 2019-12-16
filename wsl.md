@@ -7,13 +7,13 @@
 wslはDockerとほぼ同じらしい。ちなみにwindow10 home はHyper-Vが無いので現状、Docker for windowsは使えず、Docker ToolboxをVirtualBoxで操作することになる。
 ここで気になったことがwsl上でDocker動かせないかと言うことである。結論として「一応は」動くらしい。
 ## 参考URL
-><https://qiita.com/koinori/items/78a946fc74452af9afba>
+>[WSL + Ubuntu で Docker が動くっ！動くぞコイツッ！](https://qiita.com/koinori/items/78a946fc74452af9afba)
 
-><https://qiita.com/tettsu__/items/85c96850d187e4386c24>
+>[WSLでdockerのインストールからdocker-composeまで動かす](https://qiita.com/tettsu__/items/85c96850d187e4386c24)
 
-><https://simplestar-tech.hatenablog.com/entry/2019/10/14/101551>
+>[Windows Subsystem for Linux(WSL)で Docker を利用する](https://simplestar-tech.hatenablog.com/entry/2019/10/14/101551)
 
-><https://www.nuits.jp/entry/docker-on-wsl>
+>[Windows Subsystem for Linux（Hyper-Vなし）でDockerを動かす](https://www.nuits.jp/entry/docker-on-wsl)
 
 ## fish plugin
-WSLにfishいれたので　plaginも入れよう。
+WSLにfishいれたのでplaginも入れよう。
