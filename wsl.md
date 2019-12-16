@@ -15,5 +15,9 @@ wslはDockerとほぼ同じらしい。ちなみにwindow10 home はHyper-Vが�
 
 >[Windows Subsystem for Linux（Hyper-Vなし）でDockerを動かす](https://www.nuits.jp/entry/docker-on-wsl)
 
+春まで待つことが無難？
+
 ## fish plugin
 WSLにfishいれたのでplaginも入れよう。
+
+[ターミナルが100倍楽しくなるfish](https://blog.mamansoft.net/2017/10/15/enjoy-fish/)
