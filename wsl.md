@@ -33,7 +33,14 @@ $sudo service docker start
 
 Cannot connect to the Docker daemonと表示されるのでそこをなんとかしなかればならない（Client自体は存在する）
 
+（追記）良く探したら最初にブックマークして埋もれた資料を発見。こっちの方法が環境に合う
+>[Windows10でDockerを使うための最短コースをご案内](https://www.orangeitems.com/entry/2019/01/10/143859)
+
 ## fish plugin
 WSLにfishいれたのでplaginも入れよう。
 
 [ターミナルが100倍楽しくなるfish](https://blog.mamansoft.net/2017/10/15/enjoy-fish/)
+
+[WSLとHyperを利用した環境を整える](https://matcha-choco010.net/2018/06/30/wsl%E3%81%A8hyper%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9F%E7%92%B0%E5%A2%83%E3%82%92%E6%95%B4%E3%81%88%E3%82%8B/)
+
+[oh-my-fishではじめるfish](https://qiita.com/eielh/items/8b9f86a980b08125eb93)
