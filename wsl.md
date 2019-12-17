@@ -36,6 +36,8 @@ Cannot connect to the Docker daemonと表示されるのでそこをなんとか
 （追記）良く探したら最初にブックマークして埋もれた資料を発見。こっちの方法が環境に合う
 >[Windows10でDockerを使うための最短コースをご案内](https://www.orangeitems.com/entry/2019/01/10/143859)
 
+しかし上記の問題発生。春を待つ
+
 ## fish plugin
 WSLにfishいれたのでplaginも入れよう。
 
@@ -43,4 +45,21 @@ WSLにfishいれたのでplaginも入れよう。
 
 [WSLとHyperを利用した環境を整える](https://matcha-choco010.net/2018/06/30/wsl%E3%81%A8hyper%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9F%E7%92%B0%E5%A2%83%E3%82%92%E6%95%B4%E3%81%88%E3%82%8B/)
 
-[oh-my-fishではじめるfish](https://qiita.com/eielh/items/8b9f86a980b08125eb93)
+[oh-my-fish は古い！fisherman で置き換えられる。](https://futurismo.biz/archives/6079)
+
+[fish shellが結構良かった話](https://qiita.com/hennin/items/33758226a0de8c963ddf)
+
+```Bash
+\*fisher(fisherman install)
+curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+
+\* plagin　追加方法
+fisher add <plagin name>
+
+oh-my-fish/theme-bobthefish \*ステータス表示
+
+jethrokuan/fzf \*いろいろキーバインドする(ちゃんと入ってない？設定必須)
+
+decors/fish-ghq　\* ghp(?)のラッパー。git cloneを一括管理
+```
+動かないものもあるのでちゃんと整備しよう
