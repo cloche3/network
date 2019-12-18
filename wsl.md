@@ -13,8 +13,6 @@ wslはDockerとほぼ同じらしい。ちなみにwindow10 home はHyper-Vが�
 
 >[Windows Subsystem for Linux（Hyper-Vなし）でDockerを動かす](https://www.nuits.jp/entry/docker-on-wsl)
 
-春まで待つことが無難？
-
 更新用コマンド
 
 ```Bash
@@ -36,10 +34,11 @@ Cannot connect to the Docker daemonと表示されるのでそこをなんとか
 （追記）良く探したら最初にブックマークして埋もれた資料を発見。こっちの方法が環境に合う
 >[Windows10でDockerを使うための最短コースをご案内](https://www.orangeitems.com/entry/2019/01/10/143859)
 
-しかし上記の問題発生。春を待つ
+しかし上記の問題発生。WSL2が来年の春に公開されるので，今回はDocker+ WSLを試さなかった。
 
 ## fish plugin
-WSLにfishいれたのでplaginも入れよう。
+---
+WSLにfishいれたのでplaginも入れる。
 
 [ターミナルが100倍楽しくなるfish](https://blog.mamansoft.net/2017/10/15/enjoy-fish/)
 
@@ -62,4 +61,4 @@ jethrokuan/fzf \*いろいろキーバインドする(ちゃんと入ってな�
 
 decors/fish-ghq　\* ghp(?)のラッパー。git cloneを一括管理
 ```
-動かないものもあるのでちゃんと整備しよう
+動かないものもあるのでちゃんと整備する
