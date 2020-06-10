@@ -3,7 +3,7 @@
 
 >[OpenSSH Release Notes - OpenSSH 8.3](https://www.openssh.com/txt/release-8.3)
 
->[いわもとこういちによる説明](https://twitter.com/ttdoda/status/1230520432974893057)
+>[いわもとこういちさんによる説明](https://twitter.com/ttdoda/status/1230520432974893057)
 
 # DeepL
 
