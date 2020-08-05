@@ -2,7 +2,7 @@
 
 >[サルでもわかるgit](https://backlog.com/ja/git-tutorial/)
 
->[画像による簡易的なgitについての説明](https://twitter.com/098ra0209/status/1163424568544907265?s=12)
+>[画像による簡易的なgitについての説明](https://zukulog098r.com/git/)
 
 まずGitHubに登録
 
