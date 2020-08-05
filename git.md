@@ -52,7 +52,7 @@ $ cd リポジトリ名
 ブランチ
 ```
 $ git branch ブランチ名
-$ git checkout　ブランチ名
+$ git checkout 作ったブランチ名
 $ git branch　\\ブランチ確認
 ```
 コミット
