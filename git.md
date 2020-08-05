@@ -21,7 +21,7 @@ $ git --version  \\確認用
 $ git config --global user.name "<ユーザ名>"
 $ git config --global user.email "<メールアドレス>"
 $ git config --global http.proxy http://wwwproxy.kanazawa-it.ac.jp:8080/
-$ git config --global http.proxy https://wwwproxy.kanazawa-it.ac.jp:8080/
+$ git config --global https.proxy http://wwwproxy.kanazawa-it.ac.jp:8080/
 ```
 --globalを抜くとローカルリポジトリごとに設定できる。
 
