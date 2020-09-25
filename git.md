@@ -27,7 +27,7 @@ $ git config --global https.proxy http://wwwproxy.kanazawa-it.ac.jp:8080/
 
 設定削除方法
 ```
-$ git config --global --unset http://wwwproxy.kanazawa-it.ac.jp:8080/
+$ git config --global --unset
 $ git config --unset キー名
 ```
 
@@ -58,7 +58,7 @@ $ git branch　\\ブランチ確認
 コミット
 ```
 $ git add ファイル名
-$ git status　\\コミット内容確認
+$ git status \\コミット内容確認
 $ git commit -m "コメント"
 \\ 以下省略
 $ git commit -a -m "コメント"
@@ -75,7 +75,7 @@ GitHubのページを開いてプルリクエストとかいろいろして終�
 ```
 $ git checkout master
 $ git pull
-$ git branch -d ブランチ名　\\ブランチ削除
+$ git branch -d ブランチ名 \\ブランチ削除
 $ git branch -D ブランチ名 \\強制
 ```
 
