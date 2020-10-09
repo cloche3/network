@@ -9,4 +9,4 @@
 
 >[deepl翻訳](https://www.deepl.com/translator)
 
-bmi
+bmimaa
