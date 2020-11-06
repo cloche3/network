@@ -62,3 +62,15 @@ jethrokuan/fzf \*いろいろキーバインドする(ちゃんと入ってな�
 decors/fish-ghq　\* ghp(?)のラッパー。git cloneを一括管理
 ```
 動かないものもあるのでちゃんと整備する
+
+wsl バージョン確認
+```
+wsl --list --verbose
+wsl -l -v \* 省略
+```
+バージョン変更
+```
+wsl --set-version <ディストリビューション名> <1or2>
+wsl --set-default-version 2 \* 既存のアーキテクチャ変更（新しくインストールされるやつがwsl2に）
+```
+[wslインストールガイド](https://docs.microsoft.com/ja-jp/windows/wsl/install-win10)
